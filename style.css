@@ -243,20 +243,10 @@ footer i:hover
 }
 
 
-/* @media (max-width: 1000px)
-{
-    html
+@media only screen and (max-width: 980px)
+{   
+    body
     {
-        font-size: 10px;
+        overflow-x: hidden;
     }
-    .container
-    {
-    width: 100%;
-    max-width: 90vw;
-    padding: 0;
-    }
-    header
-    {
-        width: 300px;
-    }
-} */
+}
