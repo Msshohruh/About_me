@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gidugu', 'Arial', sans-serif;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    font-family: 'Gidugu', 'Arial', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 1440px;
+    
+}
+
+header
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+    margin: 30px 0;
+    
+}
+
+header a
+{
+    color: #808080;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 1.4rem;
+}
+
+header a:hover
+{
+    color: #000;
+}
+
+.active
+{
+    color: #000;
+}
+
+.h-row
+{
+    width: 100%;
+    max-width: 1400px;
+    min-height: 2px;
+    border: none;
+    background: #000;
+    
+}
+
+.subtitle
+{
+    padding: 0 1.25rem;
+}
+.subtitle-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.subtitle-content h2
+{
+    display: inline-block;
+    width: min-content;
+}
+
+h2
+{
+    line-height: 1.8rem;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.subtitle-content p:nth-child(2)
+{   
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-right: 130px;
+}
+
+.subtitle-content p:nth-child(3)
+{   
+    font-size: 1.5rem;
+    transform: rotate(-90deg);
+    height: 8px;
+}
+.subtitle-img
+{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.About-me
+{
+    width: 100%;
+    text-align: center;
+    background: #ddd;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding: 100px 0;
+}
+.About-me p
+{
+    margin-top: 70px;
+}
+
+.Skills
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 80px;
+}
+.Skills p{
+    margin: 60px 0;
+}
+
+.Skills-items
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06rem;
+    margin-bottom: 30px;
+}
+
+.Skills-items .item:not(:nth-child(4))
+{
+    margin-right: 90px;
+}
+
+.Portfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #ddd ;
+}
+
+.Portfolio h2{
+    margin: 100px 0 50px 0;
+}
+
+.Portfolio-resource
+{
+    margin: 50px 0 100px 0;
+}
+
+.Portfolio-resource a
+{
+    color: #000;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+.Portfolio-resource i{
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.Portfolio-resource:hover i
+{
+    transform: translateX(10px);
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 100px;
+}
+footer p
+{
+    margin: 40px 0;
+    line-height: 1.8rem;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #000 0%, #414345  51%, #000  100%)}
+.btn-grad 
+{
+   margin: 10px;
+   padding: 0px 25px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 30px;
+   border: 2px solid;
+   display: block;
+   font-size: 1.5rem;
+   margin-bottom: 30px;
+
+}
+
+.btn-grad:hover
+{
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+.btn-grad:active
+{
+    color: #000;
+    background: #fff;
+    font-weight: bold;    
+}
+
+footer i:not(:nth-child(4))
+{
+    margin-right: 15px;
+}
+
+footer i:hover
+{
+    transform: scale(1.4);
+    transition: 1.2s;
+    cursor: pointer;
+}
+
+
+/* @media (max-width: 1000px)
+{
+    html
+    {
+        font-size: 10px;
+    }
+    .container
+    {
+    width: 100%;
+    max-width: 90vw;
+    padding: 0;
+    }
+    header
+    {
+        width: 300px;
+    }
+} */
