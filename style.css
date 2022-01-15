@@ -302,7 +302,7 @@ footer i:hover
 }
 @media screen and (min-width: 360px){
     .Portfolio img{
-        width: 360px;
+        width: 340px;
     }
 }
 @media screen and (min-width: 480px){
