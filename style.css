@@ -256,8 +256,33 @@ footer i:hover
     transition: 1.2s;
     cursor: pointer;
 }
+footer svg
+{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 250px;
+}
+footer svg text
+{
+    font-size: 7rem;
+    fill: rgba(0, 0, 0, .1);
+    stroke-width: 1px;
+    stroke: #000;
+    stroke-linejoin: round;
+    stroke-dasharray: 80;
+    animation: animate 1s linear infinite;
+}
+@keyframes animate{
+    100%
+    {
+        stroke-dashoffset: 160;
+    }
+}
 
-
+/* MEDIA QUERY */
 @media screen and (max-width: 980px)
 {   
     .item:not(:nth-child(1))
@@ -291,6 +316,9 @@ footer i:hover
     .subtitle-img .mobile{
         display: inline-block;
         width: 100%;
+    }
+    footer svg{
+        top: 35-%
     }
 }
 @media screen and (max-width: 480px)
